@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.firstDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: whitesmoke;
+  height: 30rem;
+  width: 18rem;
+  border-radius: 0.7rem;
+}
+
+.main_div {
+  height: 25.5rem;
+  width: 18rem;
+}
+
+.list {
+  height: 18rem;
+  width: 16rem;
+  overflow: scroll;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+.heading {
+  color: black;
+  background-color: gray;
+  font-size: 2rem;
+}
+.heading:hover {
+  cursor: default;
+}
+
+input {
+  border-style: none;
+  background-color: whitesmoke;
+  border-bottom: 0.2rem solid gray;
+  color: black;
+  font: italic;
+}
+input:focus {
+  outline: none;
+  border-bottom: 0.2rem solid gray;
+}
+
+::placeholder {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.btn {
+  color: black;
+  font-size: 0.8rem;
+  /* border-radius: 100%; */
+  background-color: gray;
+  margin-left: 0.5rem;
+}
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgb(102, 80, 80);
+}
+
+li {
+  color: black;
+  list-style: none;
+  display: flex;
+}
+
+.deleteBtn {
+  color: red;
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+}
+.deleteBtn:hover {
+  cursor: pointer;
+}
+
+.dltAll {
+  background-color: red;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.dltAll:focus {
+  outline: none;
+}
